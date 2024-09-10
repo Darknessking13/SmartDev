@@ -1,0 +1,44 @@
+{
+    "name": "smartdev",
+    "version": "1.0.0",
+    "description": "A development tool that watches for file changes and restarts Node.js apps automatically. Supports JavaScript, MJS, EJS, and CJS files.",
+    "main": "bin/smartdev.js",
+    "bin": {
+      "smartdev": "./bin/smartdev.js"
+    },
+    "scripts": {
+      "start": "node bin/smartdev.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint ./bin/smartdev.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yourusername/SmartDev.git"
+    },
+    "author": "i._.become_a_devil",
+    "license": "Proprietary",
+    "dependencies": {
+      "blessed": "^0.1.81",
+      "blessed-contrib": "^4.11.0",
+      "chalk": "^4.1.2",
+      "chokidar": "^3.6.0",
+      "figures": "^6.1.0",
+      "os-utils": "^0.0.14",
+      "readline": "^1.3.0"
+    },
+    "devDependencies": {
+      "eslint": "^7.32.0"
+    },
+    "keywords": [
+      "file-watcher",
+      "auto-restart",
+      "dev-tool",
+      "watch-files",
+      "file-monitoring",
+      "nodejs",
+      "smartdev",
+      "development",
+      "javascript"
+    ]
+  }
+  
